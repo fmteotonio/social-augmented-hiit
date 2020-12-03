@@ -27,6 +27,19 @@
         - number value "input"    : Default to 0.
         - number value "max-rate" : Maximum heart rate of the user.
         - number value "rate"     : Default to 0.
+- Turn on Anonymous Authentication Sign-In Method
+- Provide database with security rules to allow public read.
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+      allow read: if true;
+    }
+  }
+}
+```
 
 ## Mobile Application
 
