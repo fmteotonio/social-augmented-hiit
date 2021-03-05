@@ -6,6 +6,9 @@ The **desktop application** displays a shared screen between all of the particip
 
 The **mobile application** is used to connect to an Activity Tracking Band (ATB) to gather heart rate, as well as providing a repetition counter for users to wield, sending all this data to a cloud stored database where the desktop application gets its required information from.
 
+![ApparatusSharedScreen](https://user-images.githubusercontent.com/63672636/110160852-79897880-7de4-11eb-9981-ab347b119072.PNG)
+
+
 # License
 
 - The following software is licensed under Creative Commons Zero v1.0 Universal
