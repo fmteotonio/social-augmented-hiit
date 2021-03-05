@@ -1,3 +1,11 @@
+# PlayHIIT
+
+PlayHIIT is a system designed to complement **videoconference-based group exercise sessions**. It is composed by a mobile and a desktop application. 
+
+The **desktop application** displays a shared screen between all of the participating users, that displays both individual and group performance data to everyone, while providing relevant information through visual and audio that is connected to different events of the activity such as someone increasing their heart rate in a substantial way.
+
+The **mobile application** is used to connect to an Activity Tracking Band (ATB) to gather heart rate, as well as providing a repetition counter for users to wield, sending all this data to a cloud stored database where the desktop application gets its required information from.
+
 # License
 
 - The following software is licensed under Creative Commons Zero v1.0 Universal
